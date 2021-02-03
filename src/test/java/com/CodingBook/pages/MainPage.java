@@ -25,11 +25,10 @@ public class MainPage extends Base{
     }
 
     public void clickLogo() {
-        about.click;
+        about.click();
         waitSomeTime(5L);
         logo.click();
     }
-
     public void verifyInfoEmailAddress(){
         String expected = "info@codingbook.org";
         String actual = infoEmail.getText();

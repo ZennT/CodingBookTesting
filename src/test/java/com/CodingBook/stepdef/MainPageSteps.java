@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import static com.CodingBook.pages.Base.waitSomeTime;
 
-public class MainPageSteps {
+public class MainPageSteps<mainPage> {
     Logger logger = LoggerFactory.getLogger(MainPage.class);
     MainPage mainPage = new MainPage();
 
@@ -34,6 +34,7 @@ public class MainPageSteps {
     public void userChecksIfCodingBookLogoIsVisibleOnTheTopLeftCorner() {
         mainPage.checkLogo();
     }
+
 
     @And("User clicks CodingBook logo")
     public void userClicksCodingBookLogo() {
