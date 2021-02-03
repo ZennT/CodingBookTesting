@@ -3,7 +3,7 @@ Feature: CodingBook Main Page
     Given User opens CodingBook web page
     When User checks if CodingBook logo is visible on the top left corner
     And User clicks CodingBook logo
-    Then Test if user landed CodingBook homepage
+    Then Verify that info@ email adress is present
 
 #  Scenario: Test CodingBook LinkedIn icon
 #    Given User opens CodingBook web page1
