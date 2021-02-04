@@ -116,7 +116,7 @@
                 <!--we can run how many feature files we want to test with threadCount. feature file numbers 1,2,3,4 etc.   -->
                 <configuration>
                     <parallel>methods</parallel>
-                    <threadCount>3</threadCount>
+                    <threadCount>2</threadCount>
                     <forkMode>perthread</forkMode>
                     <testFailureIgnore>true</testFailureIgnore>
 
