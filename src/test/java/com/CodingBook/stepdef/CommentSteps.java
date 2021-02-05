@@ -45,8 +45,8 @@ public class CommentSteps {
     }
 
     @And("write a comment {string}")
-    public void writeAComment(String arg0) {
-        this.comment.writeAComment(String comment);
+    public void writeAComment(String comment) {
+        this.comment.writeAComment(comment);
     }
 
     @And("type name {string}")
