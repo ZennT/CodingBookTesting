@@ -50,6 +50,10 @@ public class Comment extends Base{
         logger.info("Clicked TestAutomation sub-menu");
     }
 
+    public void clickOnCurriculum(){
+        curriculum.click();
+        logger.info("Clicked Curriculum");
+    }
 
     public void clickOnTestNG(){
         testNG.click();
@@ -82,7 +86,7 @@ public class Comment extends Base{
     }
 
 
-    public void ClickOnPostButton(){
+    public void clickOnPostButton(){
         submit.click();
     }
 

@@ -31,41 +31,51 @@ public class CommentSteps {
 
     @And("click on Test Automation sub-menu under Courses menu")
     public void clickOnTestAutomationSubMenuUnderCoursesMenu() {
+        comment.clickTestAutomation();
     }
 
     @And("click on Curriculum")
     public void clickOnCurriculum() {
+        comment.clickOnCurriculum();
     }
 
     @And("click on Test NG – Summary")
     public void clickOnTestNGSummary() {
+        comment.clickOnTestNG();
     }
 
     @And("write a comment {string}")
     public void writeAComment(String arg0) {
+        this.comment.writeAComment(String comment);
     }
 
     @And("type name {string}")
-    public void typeName(String arg0) {
+    public void typeName(String name) {
+        comment.typeName(name);
     }
 
     @And("type email {string}")
-    public void typeEmail(String arg0) {
+    public void typeEmail(String email) {
+        comment.typeEmail(email);
     }
 
     @And("type Website")
     public void typeWebsite() {
+        comment.typeWebsite();
     }
 
     @And("check the Save my information check-box")
     public void checkTheSaveMyInformationCheckBox() {
+        comment.checkTheSaveBox();
     }
 
     @When("click on Post Comment button")
     public void clickOnPostCommentButton() {
+        comment.clickOnPostButton();
     }
 
     @Then("verify success Comment")
     public void verifySuccessComment() {
+        comment.verifySuccessComment();
     }
 }
