@@ -1,4 +1,5 @@
 Feature: CodingBook Main Page
+
   Scenario: Test CodingBook Logo
     Given User opens CodingBook web page
     When User checks if CodingBook logo is visible on the top left corner

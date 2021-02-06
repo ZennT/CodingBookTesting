@@ -10,13 +10,13 @@ import org.slf4j.LoggerFactory;
 public class MainPage extends Base{
     Logger logger = LoggerFactory.getLogger(MainPage.class);
 
-    @FindBy(xpath ="//img[@class='custom-logo']" )
+    @FindBy(xpath ="//img[@class='custom-logo']")
     public WebElement logo;
 
-    @FindBy(xpath ="//a[@title='About']" )
+    @FindBy(xpath ="//a[@title='About']")
     public WebElement about;
 
-    @FindBy(xpath = "/a[contains(text(), 'info@codingbook.org')]")
+    @FindBy(xpath = "//a[contains(text(), 'info@codingbook.org')]")
     public WebElement infoEmail;
 
     public void checkLogo(){
